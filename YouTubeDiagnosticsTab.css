@@ -1,0 +1,69 @@
+.CONTENT			{border: groove;
+					border-color:#cccccc;
+					height:100%;
+					width:82%;
+					float:right;
+					overflow:hidden;
+					background-image:url("images/supra.png");}
+					
+.MENU				{background-color:#f2f2f2;
+					opacity: 0.4;
+					filter: alpha(opacity=40);
+					height:20px;
+					width:100%;
+					margin:0px;
+					margin-left:0px;
+					margin-right:0px;
+					padding:5px;
+					padding-right:5px;
+					text-align:right;}
+					
+.MAIN				{height:100%;
+					width:82%;
+					float:right;
+					margin-top:10px;
+					margin-right:5px;
+					padding:5px;
+					overflow:auto;}
+			
+.FOOTER				{height:30px;
+					width:100%;
+					padding:5px;
+					padding-right:5px;
+					margin:0px;
+					margin-top:0px;
+					margin-right:0px;
+					position:relative;
+					bottom:0;
+					text-align:right;
+					margin-bottom:0px;
+					clear:both;}
+.ftelement			{height:30px;
+					position:relative;
+					bottom:0;
+					padding:5px;
+					margin-top:7%;}
+					
+.BODY				{background-image:url("images/background.jpg");}
+					
+#nav				{text-align:center;}
+					
+.heading			{font-family:Georgia, Serif;
+					text-align:center;}
+#REPAIRMENU			{width:20%;
+					margin-bottom:5px;
+					border:groove;}
+#links				{margin-bottom:40px;
+					margin-left:420px;}
+#YouTubeDiag		{width:80%;
+					padding-top:10px;
+					margin-bottom:10px;
+					float:right;
+					height:50%;
+					margin-right:11px;
+					margin-left:5px;
+					border:groove;
+					border-color:#cccccc;
+					background-image:url("images/supra.png");
+					overflow:auto;}
+.text				{text-align:right;}
