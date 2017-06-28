@@ -1,0 +1,50 @@
+.CONTENT			{border: groove;
+					border-color:#cccccc;
+					height:100%;
+					width:100%;
+					clear:both;
+					background-image:url("images/supra.png");}
+					
+.MENU				{background-color:#f2f2f2;
+					opacity: 0.4;
+					filter: alpha(opacity=40);
+					height:20px;
+					width:100%;
+					margin:0px;
+					margin-left:0px;
+					margin-right:0px;
+					padding:5px;
+					padding-right:5px;
+					text-align:right;}
+					
+.MAIN				{height:100%;
+					width:100%;
+					padding:5px;
+					float:left;
+					margin-left:0px;
+					margin-right:5px;}
+			
+.FOOTER				{height:30px;
+					width:100%;
+					clear:both;
+					padding:10px;
+					padding-right:5px;
+					margin-top:42%;
+					margin-right:0px;
+					position:relative;
+					bottom:0;
+					text-align:right;
+					margin-bottom:0px;}
+					
+.BODY				{background-image:url("images/background.jpg");}
+					
+#nav				{text-align:center;}
+					
+.heading			{font-family:Georgia, Serif;
+					text-align:center;}
+					
+#text				{font-family:Georgia, Serif;}
+
+#update				{font-family:Georgia, Serif;
+					height:130px;
+					overflow:scroll;}
