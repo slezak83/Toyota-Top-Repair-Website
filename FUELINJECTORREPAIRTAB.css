@@ -1,0 +1,73 @@
+.CONTENT			{border: groove;
+					border-color:#cccccc;
+					height:100%;
+					width:100%;
+					Margin-right:0px;
+					float:right;
+					overflow:hidden;
+					background-image:url("images/supra.png");}
+					
+.MENU				{background-color:#f2f2f2;
+					opacity: 0.4;
+					filter: alpha(opacity=40);
+					height:20px;
+					width:100%;
+					margin:0px;
+					margin-left:0px;
+					margin-right:0px;
+					padding:5px;
+					padding-right:0px;
+					text-align:right;}
+					
+.MAIN				{height:100%;
+					width:80%;
+					float:right;
+					margin-top:10px;
+					margin-right:5px;
+					padding:5px;
+					overflow:auto;}
+			
+.FOOTER				{height:30px;
+					width:100%;
+					padding:5px;
+					padding-right:5px;
+					margin:0px;
+					margin-top:0px;
+					margin-right:0px;
+					position:relative;
+					bottom:0;
+					text-align:right;
+					margin-bottom:0px;
+					clear:right;}
+.ftelement			{height:30px;
+					position:relative;
+					bottom:0;
+					padding:5px;
+					margin-top:7%;}
+					
+.BODY				{height:100%;
+					width:100%;
+					background-image:url("images/background.jpg");}
+					
+#nav				{text-align:center;}
+					
+.heading			{font-family:Georgia, Serif;
+					text-align:center;}
+.Data1				{Margin-left:10%;}
+.Data11				{Height:70%;
+					Width:80%;
+					Margin-left:10%;
+					Margin-right:10%;}
+.Data2 				{Margin-left:10%;}
+#D4S				{Margin-left:15%;}
+.D4S1				{Margin-left:20%;
+					height:30%;
+					width:30%;
+					float:left;
+					}
+.D4S2				{margin-right:10%;
+					height:30%;
+					width:30%;
+					float:right;
+					}
+.text				{clear:both;}
