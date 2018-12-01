@@ -1,15 +1,17 @@
 .CONTENT			{border: groove;
 					border-color:#cccccc;
 					height:100%;
-					width:100%;
-					clear:both;
+					width: 100%;
+					padding: 2%;
+					float:right;
+					overflow:hidden;
 					background-image:url("images/supra.png");}
 					
 .MENU				{background-color:#f2f2f2;
 					opacity: 0.4;
 					filter: alpha(opacity=40);
 					height:20px;
-					width:100%;
+					width:90%;
 					margin:0px;
 					margin-left:0px;
 					margin-right:0px;
@@ -18,18 +20,19 @@
 					text-align:right;}
 					
 .MAIN				{height:100%;
-					width:100%;
-					padding:5px;
-					float:left;
-					margin-left:0px;
-					margin-right:5px;}
+					width:90%;
+					float:right;
+					margin-top:10px;
+					margin-right:40px;
+					padding-left: 100px;
+					overflow:auto;}
 			
 .FOOTER				{height:30px;
 					width:100%;
 					clear:both;
 					padding:10px;
 					padding-right:5px;
-					margin-top:42%;
+					margin-top:15%;
 					margin-right:0px;
 					position:relative;
 					bottom:0;
@@ -42,9 +45,13 @@
 					
 .heading			{font-family:Georgia, Serif;
 					text-align:center;}
-					
-#text				{font-family:Georgia, Serif;}
-
-#update				{font-family:Georgia, Serif;
-					height:130px;
-					overflow:scroll;}
+#REPAIRMENU			{width:20%;
+					margin-bottom:5px;
+					border:groove;}
+.ftelement			{height:30px;
+					position:relative;
+					bottom:0;
+					padding:5px;
+					margin-top:7%;}
+.SubmitForm			{padding:20px;
+					margin-left:20px;}

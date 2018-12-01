@@ -1,0 +1,167 @@
+<!DOCTYPE HTML>
+<HTML lang="en">
+	<HEAD>
+		<link rel="stylesheet" href="FUELINJECTORREPAIRTAB.css">
+		<script src="https://use.fontawesome.com/c1faa4303d.js"></script>
+	<TITLE>Toyota Top Repair</TITLE>
+	
+		<META CHARSET="UTF-8">
+		
+	</HEAD>
+	
+	<BODY class="BODY">
+		<DIV CLASS="MENU">
+				<a href="index.html">HOME</a> &#124; <a href="REPAIRTAB.html">REPAIR</a> &#124; <a href="TECHTIPTAB.html">TECH TIPS</a> &#124; <a href="DIAGNOSTICSTAB.html">DIAGNOSTICS</a> &#124; <a href="SUBMITAREPAIRTAB.html">SUBMIT A REPAIR TIP</a> &#124; <a href="ABOUTTAB.html">ABOUT</a>
+		</DIV>
+			&nbsp;
+				<DIV CLASS="MAIN">
+					
+					<DIV CLASS="CONTENT">
+							<h2 class="heading">
+								2017 Tacoma D4S Injection Broken Wiring
+							</h2>
+							<hr>
+								<blockquote>
+									<IMG ID="D4S" src="images/D4S injector sub-harness LH.png"alt="Picture here of rats that chewed up wiring under throttlebody"></img>
+								</blockquote>
+								
+								<blockquote>
+									This Tacoma came in with multiple codes for a cylinder number two and cylinder six misfire on top of an open direct
+									injection injector for number two and six. I then proceeded to the ecm to test the wiring and found the 
+									wiring back to the injectors were open. Once I removed the upper intake plenum I found what confirmed exactly what had 
+									happened. Mice had chewed up the wiring in the injector sub-harness underneath the intake plenum. (See image above and below) 
+								</blockquote>
+									<IMG CLASS="D4S1"src="images/D4S wiring.png" alt="picture of harness underneath intake showing broken wiring, had to remove intake to find it"></IMG>
+									<IMG CLASS="D4S2"src="images/D4S close up.png" alt="close up picture showing three broken wires"></IMG>
+								<blockquote class="text">
+									If you are going to diagnose this fast I suggest to start from the GRAY and BLACK six pin
+									connectors (six pins inside the connector but has room for 8 pins<strong>[gray]</strong> and 10 pins<strong>[black]</strong>) for the D4S system 
+									directly underneath the throttlebody. If it's not open there, then obviously it's further back 
+									to the ecm and if not, then probably you have a wiring issue or an injector issue. To get to the 
+									ecm is difficult because it's located directly behind the glovebox.
+								</blockquote>
+					</DIV>
+					<DIV CLASS="CONTENT">			
+							<H2 class="heading">
+								Restricted Fuel Injectors or Carbon?
+							</H2>
+						<HR>
+									<blockquote>
+										I really wished I had better information based upon personal experience.
+										My experience with this problem started with p0171 on a 2az-fe engine, 
+										but it was what I noticed in the techstream data that really got my attention. 
+										When you use techstream create a custom data list (refresh rate is faster) 
+										and select fuel trim data (short term and long term bank 1 and 2) and Mass Airflow.
+										Hook up a fuel pressure gauge so that you do not miss low fuel pressure if it drops!
+										Take a look below...
+									</blockquote>	
+										<br>
+										<img class="Data1" src="images/clogged injectors before.png" alt="Fuel Injector Caused very positive fuel trim here"></img>
+									<blockquote>
+										The key here is that when this car was idling the fuel trim was steady at 7&percnt;
+										long term and relatively low short term (near +/-zero). The fuel pressure stayed constant 
+										at 47psi. I then put the car in drive with my foot on the brakes revved and 
+										watched the MAF sensor shoot up to 47 grams/sec. The fuel trim seemed to become 
+										erratic so I watched what happened on decel during fuel cut and did not notice 
+										it getting very lean or misfiring. Usually during fuel cut during decel you 
+										get misfiring from carbon build up or a valve not closing. If ignition was weak it wouldn't burn everything 
+										and the exhaust stream would become rich and might misfire during acceleration.
+										I revved to 2000 rpm and held it while watching the fuel trims and found that when I did 
+										this, the long term went up to +21.00&percnt; and +15.00&percnt; short term.
+										I knew now this could only be a fuel injection problem.
+										Scroll down and look what happened after I replaced the fuel injectors.
+									</blockquote>
+									<br>
+									<img class="Data2" src="images/clogged fuel injector after.png" alt="Fuel trim extremely negative to correct itself"></img>
+									<blockquote>
+										In the picture above you can see exactly what should happen when you have fixed
+										the problem. In the picture above the short term fuel trim starts to over correct
+										for the previous learned values for the lean condition. It now goes -18.00&percnt;
+										on one bank and -14.88&percnt; on the other bank of this 2az-fe. 
+										I have seen this two times since then on the same engine with the same symptoms.
+										I am coming to the conclusion that this is a typical restricted fuel injector.
+										So there you have it! If you find these symptoms after checking all the basics
+										in your repair manual, then try this as one of your next tests. Beware that
+										Siennas have been getting this lean code from a weak fuel pump. Don't try to 
+										replace a set of six injectors if all you have is bad fuel pressure. CHECK THE BASICS FIRST!!!
+									</blockquote>
+					</DIV>
+					<DIV CLASS="CONTENT">
+					<h2 class="heading">
+							Torque Converter Shudder
+						</h2>
+						<hr>
+						<blockquote>
+							This shudder happened in a RAV4 but the diagnosis remains the exact same with a u660E transmission. The trick I have found is
+							to get a data list of the highlighted data you see in the picture below and you need to understand the difference between
+							SLU and Lock-up parameters. The difference is Lock-up is the converter in full lock-up over 50MPH
+							and SLU is the flex lock-up which is a duty-cycled (pulsed on and off) torque converter clutch
+							solenoid parameter. The shudder found in TSB's is only occurring during flex lock-up, therefore, duplicate
+							the shudder at 25-35mph when flex lock (SLU) turns ON.
+						</blockquote>
+						<img class="Data11" src="images/Torque Converter Shudder.png" alt="shudder occurring only when SLU is ON"></img>
+						<blockquote>
+							Start recording the test drive. Everytime you feel the shudder, hit the space bar to flag it. When you review
+							your data it should look like the picture above. If you get to this point you should review my tech tips
+							page first before replacing.
+						</blockquote>
+					</DIV>
+					<DIV CLASS="CONTENT">
+					<h2 class="heading">
+							Diagnosing Misfire From Carbon Build-up
+						</h2>
+						<hr>
+						<blockquote>
+							In the cases of very old Toyota engines with high mileage and a pretty severe lack of maintenance, or in the cases
+							of the newer Yaris motors, carbon is going to become an issue. Toyota has been designing lower tension oil control
+							rings and if you watch the humble mechanic on YouTube, you'll find out why this is such a big issue here. The basics of 
+							it are this in my opinion: The engine is shut off and the presence of unburned fuel vapors condenses in a still humid environment
+							and fuel droplets are pulled out of the air and settle on top of pistons and at the end of the injectors. After the 
+							engine cools the fuel eventually turns into a sticky varnish and upon the next cold start an excessive amount
+							of oil blows by the rings because they have low tension and gathers on the fuel varnish, gets hot and turns into carbon.
+						</blockquote>
+						<blockquote>
+							If you diagnose this, my tip for you is to find out how you can track a misfire without the presence of fuel or spark.
+							You can't very well do it by disabling any injectors with techstream or just doing a simple compression test because
+							those won't be enough and sometimes that stuff is time consuming. What I do is monitor only the misfire counter for 
+							each cylinder, the fuel trims, and fuel cut data parameters while recording my entire test drive to watch later. 
+							I then get the car up to highway speeds and decelerate and see if when I replay my test drive, if the misfire happened at the
+							same time as the fuel cut. If your fuel trim gets extremely positive, the carbon inside the motor is actually soaking 
+							the fuel causing a slightly lean condition. MAF will possibly also drop during acceleration before you decel. 
+							This is not foolproof but it is quick and easy to do while checking the vehicle for any pulls on a test drive. 
+						</blockquote>
+					</DIV>
+				</DIV>
+				
+	<DIV id="REPAIRMENU">
+		<UL>
+			<LI>
+				Toyota Diagnosis
+			</LI>
+			
+			<LI>
+				Diagnosis Tricks
+			</LI>
+			
+			<LI>
+				<a href="YouTubeDiagnosticsTab.html">YouTube Diagnostics</a>
+			</LI>
+			
+			<LI>
+				Diagnostic Tools
+			</LI>
+		</UL>
+
+	<FOOTER CLASS="ftelement">
+		
+		<DIV CLASS="FOOTER">
+			<HR>	
+				<nav id="nav">
+					<a href="SITEMAP.html">Site Map</a> &#124; <a href="FAQTAB.html">FAQ</a> &#124; <a href="Contact Us.html">Contact Us</a>
+				</nav>
+				&copy; Nicholas Slezak 2017
+		</DIV>
+			
+	</FOOTER>
+</body>
+</HTML>

@@ -22,27 +22,21 @@
 					width:82%;
 					float:right;
 					margin-top:10px;
-					margin-right:5px;
+					margin-right:140px;
 					padding:5px;
 					overflow:auto;}
 			
 .FOOTER				{height:30px;
 					width:100%;
-					padding:5px;
+					clear:both;
+					padding:10px;
 					padding-right:5px;
-					margin:0px;
-					margin-top:0px;
+					margin-top:15%;
 					margin-right:0px;
 					position:relative;
 					bottom:0;
 					text-align:right;
-					margin-bottom:0px;
-					clear:both;}
-.ftelement			{height:30px;
-					position:relative;
-					bottom:0;
-					padding:5px;
-					margin-top:7%;}
+					margin-bottom:0px;}
 					
 .BODY				{background-image:url("images/background.jpg");}
 					
@@ -53,31 +47,26 @@
 #REPAIRMENU			{width:20%;
 					margin-bottom:5px;
 					border:groove;}
-#links				{margin-bottom:40px;
-					margin-left:420px;}
-#links2				{margin-bottom:40px;
-					margin-left:420px;}
-#diagcontent		{width:80%;
-					padding-top:10px;
-					margin-bottom:10px;
-					float:right;
-					height:50%;
-					margin-right:11px;
-					margin-left:5px;
-					border:groove;
+.ftelement			{height:30px;
+					position:relative;
+					bottom:0;
+					padding:5px;
+					margin-top:7%;}
+.CONTENT2			{border: groove;
 					border-color:#cccccc;
-					background-image:url("images/supra.png");
-					overflow:auto;}
-.photo1				{float:left;
-					margin-bottom:10px;}
-.photo2				{margin-top:10px;
-					float:left;}
-.etcg				{position:relative;
-					height:250px;
+					height:100%;
 					width:90%;
-					bottom:0;}
-.danner				{margin-bottom:10px;
-					position:relative;}
-.h1					{padding-left:200px;
-					text-align:left;}
-.h1ft				{text-align:center;}
+					
+					overflow:hidden;
+					background-image:url("images/supra.png");}
+.MAIN2				{height:100%;
+					width:100%;
+					
+					margin-top:70px;
+					margin-right:0px;
+					margin-left:50px;
+					padding:5px;
+					overflow:auto;}
+.heading2			{font-family:Georgia, Serif;
+					text-align:center;}
+#ControlArmTip		{text-align:center;}
