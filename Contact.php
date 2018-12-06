@@ -36,11 +36,21 @@ try {
     $mail->isHTML(true);                                  // Set email format to HTML
     $mail->Subject = 'Repair Procedure Submission '.$year.' '.$model;
 	$mail->Body=$Technician_Name.' This is my procedure: '.$message.' Category: '.$Repair_Category.' This should take approximately '.$ETC.' hours.';
+<<<<<<< HEAD
 	
 	//Send Message
 	echo'<script type="text/javascript">onClick=alert("Message Sent!")</script>';
 	$mail->send();
 	echo'<script type="text/javascript">location.replace("SUBMITAREPAIRTAB.html")</script>';
+=======
+    ?>
+	<script type="text/javascript">onClick=alert("Message Sent!")</script>
+	<?php
+	$mail->send();
+	?>
+	<script type="text/javascript">location.replace("SUBMITAREPAIRTAB.html")</script>
+	<?php
+>>>>>>> a656f8b0e12e493f4e5eb046e670ec6dea91cac4
     echo 'Message has been sent';
 } catch (Exception $e) {
     echo 'Message could not be sent. Mailer Error: ', $mail->ErrorInfo;
